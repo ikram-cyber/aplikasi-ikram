@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikram Cyber System | Aplikasi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; background-color: #030303; }
+        .font-luxury { font-family: 'Playfair Display', serif; }
+        .gold-text { background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c); -webkit-background-clip: text; color: transparent; }
+        .luxury-border { border: 1px solid rgba(212, 175, 55, 0.3); }
+        .luxury-card { background: rgba(10, 10, 10, 0.8); backdrop-filter: blur(15px); transition: all 0.4s ease; }
+        .luxury-card:hover { transform: translateY(-3px); border-color: rgba(212, 175, 55, 0.6); box-shadow: 0 10px 30px rgba(212, 175, 55, 0.15); }
+    </style>
+</head>
+<body class="text-slate-300 antialiased pb-20 relative flex flex-col min-h-screen">
+
+    <a href="https://ikram-cyber.web.id/" class="absolute top-6 left-6 z-50 text-slate-400 hover:text-[#d4af37] text-2xl transition-colors">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+
+    <main class="max-w-md mx-auto px-6 pt-24 flex-1 w-full space-y-12">
+        <div class="text-center space-y-6">
+            <div class="w-24 h-24 mx-auto rounded-full border border-[#d4af37]/40 flex items-center justify-center bg-black/50 mb-8">
+                <i class="fas fa-th-large text-5xl gold-text"></i>
+            </div>
+            <h1 class="font-luxury text-4xl font-bold text-white tracking-tight">App <br><span class="gold-text italic">Gallery</span></h1>
+            <p class="text-xs text-slate-400 uppercase tracking-[0.2em]">Ikram Cyber System</p>
+            <div class="w-16 h-[1px] bg-[#d4af37] mx-auto mt-6"></div>
+        </div>
+
+        <div class="pt-4 space-y-6">
+            
+            <a href="#" class="flex items-center p-6 luxury-card luxury-border rounded-2xl group">
+                <div class="w-14 h-14 rounded-full bg-black/40 border border-white/10 flex items-center justify-center mr-5 transition-all group-hover:border-[#d4af37]">
+                    <i class="fas fa-chart-pie text-[#d4af37] text-xl"></i>
+                </div>
+                <div class="flex-1">
+                    <h2 class="font-luxury text-white text-lg uppercase tracking-wider">Financial Manager</h2>
+                    <p class="text-[10px] text-slate-500 uppercase tracking-[0.15em] mt-2">Sistem ERP & Akuntansi</p>
+                </div>
+                <i class="fas fa-external-link-alt text-slate-700 group-hover:text-[#d4af37] transition-colors text-sm"></i>
+            </a>
+
+            <a href="#" class="flex items-center p-6 luxury-card luxury-border rounded-2xl group">
+                <div class="w-14 h-14 rounded-full bg-black/40 border border-white/10 flex items-center justify-center mr-5 transition-all group-hover:border-[#d4af37]">
+                    <i class="fas fa-robot text-[#d4af37] text-xl"></i>
+                </div>
+                <div class="flex-1">
+                    <h2 class="font-luxury text-white text-lg uppercase tracking-wider">Bot Automation</h2>
+                    <p class="text-[10px] text-slate-500 uppercase tracking-[0.15em] mt-2">Auto-Script & Airdrop</p>
+                </div>
+                <i class="fas fa-external-link-alt text-slate-700 group-hover:text-[#d4af37] transition-colors text-sm"></i>
+            </a>
+
+            <a href="#" class="flex items-center p-6 luxury-card luxury-border rounded-2xl group">
+                <div class="w-14 h-14 rounded-full bg-black/40 border border-white/10 flex items-center justify-center mr-5 transition-all group-hover:border-[#d4af37]">
+                    <i class="fas fa-chart-line text-[#d4af37] text-xl"></i>
+                </div>
+                <div class="flex-1">
+                    <h2 class="font-luxury text-white text-lg uppercase tracking-wider">Market Scanner</h2>
+                    <p class="text-[10px] text-slate-500 uppercase tracking-[0.15em] mt-2">XAUUSD & Crypto Flow</p>
+                </div>
+                <i class="fas fa-external-link-alt text-slate-700 group-hover:text-[#d4af37] transition-colors text-sm"></i>
+            </a>
+
+        </div>
+    </main>
+
+    <footer class="pt-12 pb-8 text-center mt-auto">
+        <p class="text-[10px] text-slate-700 uppercase tracking-[0.5em] font-light">&copy; 2026 Ikram Cyber System</p>
+    </footer>
+
+</body>
+</html>
